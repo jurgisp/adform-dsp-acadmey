@@ -1,0 +1,19 @@
+    python:
+http://docs.python.org/3.3/
+http://docs.python.org/3.3/tutorial/
+http://docs.python.org/2.7/
+http://docs.python.org/2.7/tutorial/
+https://github.com/selwin/python-user-agents
+
+    sql:
+http://w3schools.com/sql/
+http://www.sqlite.org/queryplanner.html
+
+    git:
+http://git-scm.com/documentation
+
+    bayes:
+http://yudkowsky.net/rational/bayes
+
+    generic:
+http://stackoverflow.com
