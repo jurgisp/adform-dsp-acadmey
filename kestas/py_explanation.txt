@@ -1,0 +1,9 @@
+Three files:
+
+regex_history.py:
+	reads cookies and history files, dumps all of them with all (
+	'gender', 'income', 'age') labels.
+regex_export.py:
+	reads output by regex_history.py and leaves only one label for regression
+scikit_regression.py
+	read output by regex_export.py and performs regression
