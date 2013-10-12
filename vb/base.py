@@ -63,7 +63,7 @@ class DemogData:
             limit = ' limit ' + str(limit)
         if label:
             label = ' where ' + label + ' is not null'
-        cur.execute('select id, url from history' + label + limit + ';')
+        cur.execute('select distinct id, url from history' + label + limit + ';')
         for row in cur:
             yield row
 
