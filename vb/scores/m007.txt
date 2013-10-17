@@ -1,0 +1,61 @@
+               |  auc   |              matrix construction                |        classifier          | # features
+---------------|--------|-------------------------------------------------|----------------------------|-------------
+ gender_female | 0.7527 | m007(cut_bound= 3, drop_bound= 1, max_level=10) | LogisticRegression(C=0.14) | 1463021
+               | 0.7527 | m007(cut_bound= 5, drop_bound= 5, max_level=10) | LogisticRegression(C=0.11) | 1018588
+               | 0.7520 | m007(cut_bound= 6, drop_bound= 6, max_level=10) | LogisticRegression(C=0.20) |  966599
+               | 0.7520 | m007(cut_bound= 7, drop_bound= 7, max_level=10) | LogisticRegression(C=0.15) |  896789
+               | 0.7609 | m007(cut_bound= 8, drop_bound= 8, max_level=10) | LogisticRegression(C=0.18) |  777080
+               | 0.7603 | m007(cut_bound= 9, drop_bound= 9, max_level=10) | LogisticRegression(C=0.11) |  736793
+               | 0.7629 | m007(cut_bound=10, drop_bound= 3, max_level=10) | LogisticRegression(C=0.13) | 1083221
+               | 0.7629 | m007(cut_bound=10, drop_bound= 5, max_level=10) | LogisticRegression(C=0.13) | 1022276
+               | 0.7632 | m007(cut_bound=10, drop_bound= 7, max_level=10) | LogisticRegression(C=0.12) |  898719
+               | 0.7635 | m007(cut_bound=10, drop_bound= 9, max_level=10) | LogisticRegression(C=0.13) |  737326
+               | 0.7652 | m007(cut_bound=10, drop_bound=10, max_level=10) | LogisticRegression(C=0.15) |  419507
+               | 0.7632 | m007(cut_bound=11, drop_bound=10, max_level=10) | LogisticRegression(C=0.06) |  419924
+               | 0.7638 | m007(cut_bound=12, drop_bound=10, max_level=10) | LogisticRegression(C=0.06) |  420064
+               | 0.7624 | m007(cut_bound=13, drop_bound= 5, max_level=10) | LogisticRegression(C=0.05) | 1023376
+               | 0.7640 | m007(cut_bound=13, drop_bound=10, max_level=10) | LogisticRegression(C=0.06) |  420170
+               | 0.7636 | m007(cut_bound=13, drop_bound=11, max_level=10) | LogisticRegression(C=0.06) |   46769
+               | 0.7636 | m007(cut_bound=13, drop_bound=12, max_level=10) | LogisticRegression(C=0.06) |   37840
+               | 0.7638 | m007(cut_bound=13, drop_bound=13, max_level=10) | LogisticRegression(C=0.06) |   36455
+               | 0.7633 | m007(cut_bound=14, drop_bound= 9, max_level=10) | LogisticRegression(C=0.05) |  738111
+               | 0.7639 | m007(cut_bound=14, drop_bound=10, max_level=10) | LogisticRegression(C=0.06) |  420250
+               | 0.7635 | m007(cut_bound=14, drop_bound=11, max_level=10) | LogisticRegression(C=0.05) |   46844
+               | 0.7638 | m007(cut_bound=15, drop_bound=10, max_level=10) | LogisticRegression(C=0.06) |  420372
+
+   age_15_24   | 0.7727 | m008(cut_bound= 5, drop_bound= 5, max_level=10) | LogisticRegression(C=0.08) |  909255
+               | 0.8052 | m008(cut_bound=10, drop_bound=10, max_level=10) | LogisticRegression(C=0.12) |  377597
+               | 0.8166 | m008(cut_bound=15, drop_bound=10, max_level=10) | LogisticRegression(C=0.12) |  378415
+               | 0.8157 | m007(cut_bound=17, drop_bound= 1, max_level=10) | LogisticRegression(C=0.13) | 2005132
+               | 0.8155 | m008(cut_bound=20, drop_bound=10, max_level=10) | LogisticRegression(C=0.11) |  378767
+               | 0.8181 | m007(cut_bound=30, drop_bound= 1, max_level=10) | LogisticRegression(C=0.12) | 2007280
+               | 0.8180 | m007(cut_bound=30, drop_bound= 2, max_level=10) | LogisticRegression(C=0.13) | 1003712
+               | 0.8173 | m007(cut_bound=30, drop_bound= 5, max_level=10) | LogisticRegression(C=0.14) |  915064
+               | 0.8161 | m007(cut_bound=30, drop_bound=20, max_level=10) | LogisticRegression(C=0.11) |   27429
+               | 0.8162 | m007(cut_bound=30, drop_bound=25, max_level=10) | LogisticRegression(C=0.11) |   20034
+               | 0.8181 | m007(cut_bound=30, drop_bound= 1, max_level=10) | LogisticRegression(C=0.12) |
+               | 0.8156 | m007(cut_bound=20, drop_bound= 1, max_level=10) | LogisticRegression(C=0.11) |
+               | 0.8164 | m007(cut_bound=50, drop_bound= 1, max_level=10) | LogisticRegression(C=0.12) |
+               | 0.8180 | m007(cut_bound=40, drop_bound= 1, max_level=10) | LogisticRegression(C=0.16) |
+               | 0.8183 | m007(cut_bound=35, drop_bound= 1, max_level=10) | LogisticRegression(C=0.17) |
+               | 0.8178 | m007(cut_bound=33, drop_bound= 1, max_level=10) | LogisticRegression(C=0.17) |
+               | 0.8157 | m007(cut_bound=35, drop_bound=20, max_level=10) | LogisticRegression(C=0.13) |
+
+  income_high  | 0.6621 | m007(cut_bound=10, drop_bound= 8, max_level=10) | LogisticRegression(C=0.03) |  566029
+               | 0.6669 | m007(cut_bound=12, drop_bound= 9, max_level=10) | LogisticRegression(C=0.02) |  535627
+               | 0.6678 | m007(cut_bound=14, drop_bound=10, max_level=10) | LogisticRegression(C=0.03) |  307561
+               | 0.6681 | m007(cut_bound=16, drop_bound=12, max_level=10) | LogisticRegression(C=0.02) |   30250
+               | 0.6682 | m007(cut_bound=17, drop_bound= 1, max_level=10) | LogisticRegression(C=0.03) | 1635447
+               | 0.6681 | m007(cut_bound=17, drop_bound= 9, max_level=10) | LogisticRegression(C=0.03) |  536032
+               | 0.6693 | m007(cut_bound=17, drop_bound=11, max_level=10) | LogisticRegression(C=0.03) |   37345
+               | 0.6686 | m007(cut_bound=17, drop_bound=12, max_level=10) | LogisticRegression(C=0.03) |   30343
+               | 0.6693 | m007(cut_bound=17, drop_bound=13, max_level=10) | LogisticRegression(C=0.03) |   29200
+               | 0.6692 | m007(cut_bound=17, drop_bound=14, max_level=10) | LogisticRegression(C=0.03) |   28794
+               | 0.6691 | m007(cut_bound=17, drop_bound=15, max_level=10) | LogisticRegression(C=0.03) |   27728
+               | 0.6691 | m007(cut_bound=17, drop_bound=16, max_level=10) | LogisticRegression(C=0.02) |   27454
+               | 0.6690 | m007(cut_bound=18, drop_bound=11, max_level=10) | LogisticRegression(C=0.03) |   37377
+               | 0.6691 | m007(cut_bound=18, drop_bound=13, max_level=10) | LogisticRegression(C=0.02) |   29237
+               | 0.6690 | m007(cut_bound=18, drop_bound=15, max_level=10) | LogisticRegression(C=0.02) |   27758
+               | 0.6680 | m007(cut_bound=19, drop_bound=14, max_level=10) | LogisticRegression(C=0.03) |   28933
+               | 0.6677 | m007(cut_bound=20, drop_bound=15, max_level=10) | LogisticRegression(C=0.03) |   27897
+               | 0.6666 | m007(cut_bound=22, drop_bound=16, max_level=10) | LogisticRegression(C=0.03) |   27747
