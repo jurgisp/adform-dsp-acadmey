@@ -1,0 +1,95 @@
+               |  auc   |    matrix constructor    |         classifier         | # features
+---------------|--------|--------------------------|----------------------------|-------------
+ gender_female | 0.7822 | m008(lower_pop_bound= 1) | LogisticRegression(C=0.12) | 2046496
+               | 0.7810 | m008(lower_pop_bound= 2) | LogisticRegression(C=0.04) |   68305
+               | 0.7806 | m008(lower_pop_bound= 3) | LogisticRegression(C=0.03) |   39187
+               | 0.7805 | m008(lower_pop_bound= 4) | LogisticRegression(C=0.03) |   29544
+               | 0.7799 | m008(lower_pop_bound= 5) | LogisticRegression(C=0.03) |   24051
+               | 0.7794 | m008(lower_pop_bound= 6) | LogisticRegression(C=0.03) |   20495
+               | 0.7794 | m008(lower_pop_bound= 7) | LogisticRegression(C=0.03) |   17842
+               | 0.7789 | m008(lower_pop_bound= 8) | LogisticRegression(C=0.03) |   15896
+               | 0.7785 | m008(lower_pop_bound= 9) | LogisticRegression(C=0.03) |   14290
+               | 0.7781 | m008(lower_pop_bound=10) | LogisticRegression(C=0.03) |   12969
+               | 0.7777 | m008(lower_pop_bound=11) | LogisticRegression(C=0.03) |   11924
+               | 0.7774 | m008(lower_pop_bound=12) | LogisticRegression(C=0.03) |   10984
+               | 0.7769 | m008(lower_pop_bound=13) | LogisticRegression(C=0.03) |   10281
+               | 0.7769 | m008(lower_pop_bound=14) | LogisticRegression(C=0.03) |    9640
+               | 0.7766 | m008(lower_pop_bound=15) | LogisticRegression(C=0.03) |    9087
+               | 0.7767 | m008(lower_pop_bound=16) | LogisticRegression(C=0.03) |    8558
+               | 0.7763 | m008(lower_pop_bound=17) | LogisticRegression(C=0.03) |    8110
+               | 0.7764 | m008(lower_pop_bound=18) | LogisticRegression(C=0.03) |    7748
+               | 0.7759 | m008(lower_pop_bound=19) | LogisticRegression(C=0.03) |    7321
+               | 0.7760 | m008(lower_pop_bound=20) | LogisticRegression(C=0.03) |    6956
+               | 0.7760 | m008(lower_pop_bound=25) | LogisticRegression(C=0.03) |    5692
+               | 0.7760 | m008(lower_pop_bound=30) | LogisticRegression(C=0.03) |    4828
+               | 0.7760 | m008(lower_pop_bound=35) | LogisticRegression(C=0.03) |    4211
+               | 0.7760 | m008(lower_pop_bound=40) | LogisticRegression(C=0.03) |    3774
+               | 0.7761 | m008(lower_pop_bound=45) | LogisticRegression(C=0.03) |    3423
+               | 0.7769 | m008(lower_pop_bound=50) | LogisticRegression(C=0.03) |    3093
+               | 0.7770 | m008(lower_pop_bound=60) | LogisticRegression(C=0.04) |    2632
+               | 0.7761 | m008(lower_pop_bound=70) | LogisticRegression(C=0.04) |    2314
+               | 0.7738 | m008(lower_pop_bound=80) | LogisticRegression(C=0.04) |    2077
+               | 0.7731 | m008(lower_pop_bound=90) | LogisticRegression(C=0.04) |    1884
+
+   age_15_24   | 0.8067 | m008(lower_pop_bound= 1) | LogisticRegression(C=0.06) | 1858103
+               | 0.8163 | m008(lower_pop_bound= 2) | LogisticRegression(C=0.05) |   64108
+               | 0.8170 | m008(lower_pop_bound= 3) | LogisticRegression(C=0.05) |   36840
+               | 0.8174 | m008(lower_pop_bound= 4) | LogisticRegression(C=0.06) |   27768
+               | 0.8176 | m008(lower_pop_bound= 5) | LogisticRegression(C=0.06) |   22671
+               | 0.8176 | m008(lower_pop_bound= 6) | LogisticRegression(C=0.06) |   19256
+               | 0.8174 | m008(lower_pop_bound= 7) | LogisticRegression(C=0.06) |   16755
+               | 0.8178 | m008(lower_pop_bound= 8) | LogisticRegression(C=0.06) |   14882
+               | 0.8177 | m008(lower_pop_bound= 9) | LogisticRegression(C=0.06) |   13383
+               | 0.8175 | m008(lower_pop_bound=10) | LogisticRegression(C=0.06) |   12173
+               | 0.8179 | m008(lower_pop_bound=13) | LogisticRegression(C=0.06) |    9634
+               | 0.8181 | m008(lower_pop_bound=14) | LogisticRegression(C=0.06) |    8979
+               | 0.8181 | m008(lower_pop_bound=15) | LogisticRegression(C=0.06) |    8453
+               | 0.8180 | m008(lower_pop_bound=16) | LogisticRegression(C=0.06) |    7970
+               | 0.8179 | m008(lower_pop_bound=17) | LogisticRegression(C=0.06) |    7548
+               | 0.8180 | m008(lower_pop_bound=20) | LogisticRegression(C=0.06) |    6473
+               | 0.8177 | m008(lower_pop_bound=23) | LogisticRegression(C=0.06) |    5657
+               | 0.8180 | m008(lower_pop_bound=24) | LogisticRegression(C=0.06) |    5449
+               | 0.8182 | m008(lower_pop_bound=25) | LogisticRegression(C=0.06) |    5267
+               | 0.8179 | m008(lower_pop_bound=26) | LogisticRegression(C=0.06) |    5085
+               | 0.8178 | m008(lower_pop_bound=27) | LogisticRegression(C=0.06) |    4927
+               | 0.8168 | m008(lower_pop_bound=30) | LogisticRegression(C=0.06) |
+               | 0.8182 | m008(lower_pop_bound=33) | LogisticRegression(C=0.06) |    4120
+               | 0.8183 | m008(lower_pop_bound=34) | LogisticRegression(C=0.06) |    4026
+               | 0.8181 | m008(lower_pop_bound=35) | LogisticRegression(C=0.06) |
+               | 0.8186 | m008(lower_pop_bound=36) | LogisticRegression(C=0.06) |    3843
+               | 0.8193 | m008(lower_pop_bound=37) | LogisticRegression(C=0.06) |    3757
+               | 0.8198 | m008(lower_pop_bound=38) | LogisticRegression(C=0.06) |    3661
+               | 0.8190 | m008(lower_pop_bound=39) | LogisticRegression(C=0.06) |    3584
+               | 0.8188 | m008(lower_pop_bound=40) | LogisticRegression(C=0.06) |    3505
+               | 0.8188 | m008(lower_pop_bound=41) | LogisticRegression(C=0.06) |    3417
+               | 0.8183 | m008(lower_pop_bound=42) | LogisticRegression(C=0.06) |    3343
+               | 0.8180 | m008(lower_pop_bound=45) | LogisticRegression(C=0.06) |    3172
+               | 0.8177 | m008(lower_pop_bound=50) | LogisticRegression(C=0.07) |    2867
+               | 0.8152 | m008(lower_pop_bound=70) | LogisticRegression(C=0.07) |    2150
+
+  income_high  | 0.6580 | m008(lower_pop_bound= 1) | LogisticRegression(C=0.02) | 1513657
+               | 0.6578 | m008(lower_pop_bound= 2) | LogisticRegression(C=0.01) |   53498
+               | 0.6578 | m008(lower_pop_bound= 3) | LogisticRegression(C=0.01) |   31286
+               | 0.6576 | m008(lower_pop_bound= 4) | LogisticRegression(C=0.01) |   23559
+               | 0.6575 | m008(lower_pop_bound= 5) | LogisticRegression(C=0.01) |   19247
+               | 0.6576 | m008(lower_pop_bound= 6) | LogisticRegression(C=0.01) |   16256
+               | 0.6574 | m008(lower_pop_bound= 7) | LogisticRegression(C=0.01) |   14173
+               | 0.6575 | m008(lower_pop_bound= 8) | LogisticRegression(C=0.01) |   12524
+               | 0.6577 | m008(lower_pop_bound= 9) | LogisticRegression(C=0.01) |   11224
+               | 0.6580 | m008(lower_pop_bound=10) | LogisticRegression(C=0.01) |   10127
+               | 0.6572 | m008(lower_pop_bound=11) | LogisticRegression(C=0.01) |    9309
+               | 0.6573 | m008(lower_pop_bound=12) | LogisticRegression(C=0.01) |    8635
+               | 0.6570 | m008(lower_pop_bound=13) | LogisticRegression(C=0.01) |    8037
+               | 0.6567 | m008(lower_pop_bound=14) | LogisticRegression(C=0.01) |    7511
+               | 0.6574 | m008(lower_pop_bound=15) | LogisticRegression(C=0.01) |    7019
+               | 0.6570 | m008(lower_pop_bound=16) | LogisticRegression(C=0.01) |    6590
+               | 0.6569 | m008(lower_pop_bound=17) | LogisticRegression(C=0.01) |    6244
+               | 0.6568 | m008(lower_pop_bound=18) | LogisticRegression(C=0.01) |    5917
+               | 0.6565 | m008(lower_pop_bound=19) | LogisticRegression(C=0.01) |    5634
+               | 0.6566 | m008(lower_pop_bound=20) | LogisticRegression(C=0.01) |    5362
+               | 0.6564 | m008(lower_pop_bound=25) | LogisticRegression(C=0.01) |    4387
+               | 0.6561 | m008(lower_pop_bound=30) | LogisticRegression(C=0.01) |    3732
+               | 0.6560 | m008(lower_pop_bound=35) | LogisticRegression(C=0.01) |    3264
+               | 0.6561 | m008(lower_pop_bound=40) | LogisticRegression(C=0.01) |    2904
+               | 0.6561 | m008(lower_pop_bound=45) | LogisticRegression(C=0.01) |    2638
+               | 0.6564 | m008(lower_pop_bound=50) | LogisticRegression(C=0.01) |    2405
