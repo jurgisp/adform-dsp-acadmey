@@ -9,6 +9,8 @@ import operator as op
 import string
 import sys
 import argparse
+import logging
+
 
 rubbish = set(['adservinginternational.com', 'adnxs.com','doubleclick.net',
                'emediate.eu', 'google.com', 'google.dk', 'emediate.se',
@@ -19,18 +21,18 @@ def get_domain (url):
     a = tldextract.extract(url)
     return a.domain + '.' + a.suffix
 
-def parse_url (url = '', query=True):
-    matches = re.findall(r'=http[s]?(?:(?:[:])|(?:%3A))(?:(?:/)|(?:%2F)){2}([^&;]*)', url)    
-    if matches: 
-        for u in matches:
-            u = urllib2.unquote(u)
-            if get_domain(u) not in rubbish:
-                yield u
-    else:
-        yield urllib2.unquote(url)
+def parse_url (url = '', adv = 0):
+    if adv:
+        matches = re.findall(r'=http[s]?(?:(?:[:])|(?:%3A))(?:(?:/)|(?:%2F)){2}([^&;]*)', url)    
+        if matches: 
+             for u in matches:
+                 u = urllib2.unquote(u)
+		 yield 'http://' + u
+    
+    yield urllib2.unquote('http://' + url)
 
 
-def produrator (label, set='training', n_files=2):
+def produrator (label, set='training', adv_url = 0, n_files=47):
     if set == 'training':
         suffixes = ['000001', '000008', '000010', '000011', '000012', '000013',
                     '000014', '000015', '000016', '000017', '000018', '000019',
@@ -41,11 +43,13 @@ def produrator (label, set='training', n_files=2):
                     '000044', '000045', '000046', '000047', '000048', '000049',
                     '000066', '000067', '000068', '000069', '000071'][:n_files]
     else:
-        #suffixes = ['ALL_MOD_9']
-        suffixes = ['000001', '000008', '000010', '000011', '000012', '000013']
+        suffixes = ['ALL_MOD_9']
+        #suffixes = ['000001', '000008', '000010', '000011', '000012', '000013']
     
+    logging.basicConfig()
+   	 
     for suffix in suffixes:
-        file = open ('cookies/20131015_female/8191ca07-4888-4484-8bf6-44bdb7c66a77_' + suffix)
+        file = open ('/home/ubuntu/data/20131015_female/8191ca07-4888-4484-8bf6-44bdb7c66a77_' + suffix)
         for line in file.readlines():
             (browser, os, screensize, country, clicker, urls, domains,
                 verticals, agent, cookiemod, id, segments, negative,
@@ -69,7 +73,7 @@ def produrator (label, set='training', n_files=2):
             if urls:
                 urls[0] = re.sub(r'https?://', '', urls[0])
                 for url in urls:
-                    for u in parse_url(url):
+                    for u in parse_url(url, adv=adv_url):
                         history.append(u)
             
             domains = domains.split(';')
