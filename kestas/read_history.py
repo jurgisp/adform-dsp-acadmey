@@ -44,8 +44,6 @@ def produrator (label, set='training', adv_url = 0, n_files=47):
                     '000066', '000067', '000068', '000069', '000071'][:n_files]
     else:
         suffixes = ['ALL_MOD_9']
-        #suffixes = ['000001', '000008', '000010', '000011', '000012', '000013']
-    
     logging.basicConfig()
    	 
     for suffix in suffixes:
@@ -81,7 +79,6 @@ def produrator (label, set='training', adv_url = 0, n_files=47):
             for u in domains:
                 history.append(u)
             yield (int(id), label_class, history)
-            #exit()
         file.close()
 
         
