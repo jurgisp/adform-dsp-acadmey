@@ -72,6 +72,9 @@ def roc_graph(segment):
 
     y_pred = [l[1] for l in m.predict_proba(X_test)]
     fpr, tpr, thresholds = roc_curve(y_test, y_pred)
+    plt.figure(figsize=(3, 3))
+    plt.gcf().subplots_adjust(bottom=0.15)
+    plt.gcf().subplots_adjust(left=0.18)
     plt.plot(fpr, tpr, 'g-')
     plt.xlabel('false positive rate')
     plt.ylabel('true positive rate')
@@ -89,6 +92,9 @@ def precision_recall_graph(segment):
 
     y_pred = [l[1] for l in m.predict_proba(X_test)]
     precision, recall, thresholds = precision_recall_curve(y_test, y_pred)
+    plt.figure(figsize=(3, 3))
+    plt.gcf().subplots_adjust(bottom=0.15)
+    plt.gcf().subplots_adjust(left=0.18)
     plt.plot(recall, precision, 'g-')
     plt.xlabel('recall')
     plt.ylabel('precision')
