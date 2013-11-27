@@ -25,10 +25,9 @@ def parse_url (url = '', adv = 0):
     if adv:
         matches = re.findall(r'=http[s]?(?:(?:[:])|(?:%3A))(?:(?:/)|(?:%2F)){2}([^&;]*)', url)    
         if matches: 
-             for u in matches:
-                 u = urllib2.unquote(u)
-		 yield 'http://' + u
-    
+            for u in matches:
+                u = urllib2.unquote(u)
+                yield 'http://' + u
     yield urllib2.unquote('http://' + url)
 
 
